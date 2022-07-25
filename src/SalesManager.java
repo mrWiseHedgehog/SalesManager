@@ -1,7 +1,7 @@
 public class SalesManager {
-    protected int[] sales;
-
-    public SalesManager(int[] sales) {
+    protected int[] sales = {1, 54, 12, 23};
+    // заполненый массив для демонстрации работы метода max
+    public SalesManager() {
         this.sales = sales;
     }
 
